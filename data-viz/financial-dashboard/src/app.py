@@ -562,7 +562,7 @@ def main():
     st.title("Fund Analysis Dashboard")
     
     # Load data with correct path
-    funds_data = load_data('financial-dashboard/data/funds_results.json')
+    funds_data = load_data('data-viz/financial-dashboard/data/funds_results.json')
     
     if funds_data is None:
         st.error("Failed to load fund data. Please check the data file.")
